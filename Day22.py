@@ -8,5 +8,6 @@ numb4 = int(input("Enter 4th number as input: "))
 numb5 = int(input("Enter 5th number as input: "))
 
 table = [numb1,numb2,numb3,numb4,numb5]
+print([table])
 
 print ("The maximum value you entered is:", max(table),"The minimum value you entered is:", min(table))
